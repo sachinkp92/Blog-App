@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: lightgray;
+}
+
+.bg-container {
+  height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-container h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.form-container input {
+  width: 400px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+.form-container textarea {
+  width: 400px;
+  height: 120px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+.post-btn {
+  background-color: rgb(24, 146, 228);
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.card-container li {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.card-container li h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-container li p {
+  font-size: 16px;
+}
